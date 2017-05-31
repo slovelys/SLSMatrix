@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0154E77C1EDF027700E8B972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0154E77B1EDF027700E8B972 /* AppDelegate.swift */; };
+		0154E77E1EDF027700E8B972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0154E77D1EDF027700E8B972 /* ViewController.swift */; };
+		0154E7811EDF027700E8B972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0154E77F1EDF027700E8B972 /* Main.storyboard */; };
+		0154E7831EDF027700E8B972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0154E7821EDF027700E8B972 /* Assets.xcassets */; };
+		0154E7861EDF027700E8B972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0154E7841EDF027700E8B972 /* LaunchScreen.storyboard */; };
+		0154E7911EDF027700E8B972 /* SLSMatrixDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0154E7901EDF027700E8B972 /* SLSMatrixDemoTests.swift */; };
+		0154E79C1EDF027700E8B972 /* SLSMatrixDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0154E79B1EDF027700E8B972 /* SLSMatrixDemoUITests.swift */; };
+		0154E7AC1EDF02E400E8B972 /* SLSMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0154E7AB1EDF02E400E8B972 /* SLSMatrix.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0154E78D1EDF027700E8B972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0154E7701EDF027700E8B972 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0154E7771EDF027700E8B972;
+			remoteInfo = SLSMatrixDemo;
+		};
+		0154E7981EDF027700E8B972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0154E7701EDF027700E8B972 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0154E7771EDF027700E8B972;
+			remoteInfo = SLSMatrixDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0154E7781EDF027700E8B972 /* SLSMatrixDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLSMatrixDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0154E77B1EDF027700E8B972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0154E77D1EDF027700E8B972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0154E7801EDF027700E8B972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0154E7821EDF027700E8B972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0154E7851EDF027700E8B972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0154E7871EDF027700E8B972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0154E78C1EDF027700E8B972 /* SLSMatrixDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLSMatrixDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0154E7901EDF027700E8B972 /* SLSMatrixDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSMatrixDemoTests.swift; sourceTree = "<group>"; };
+		0154E7921EDF027700E8B972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0154E7971EDF027700E8B972 /* SLSMatrixDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLSMatrixDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0154E79B1EDF027700E8B972 /* SLSMatrixDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSMatrixDemoUITests.swift; sourceTree = "<group>"; };
+		0154E79D1EDF027700E8B972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0154E7AB1EDF02E400E8B972 /* SLSMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLSMatrix.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0154E7751EDF027700E8B972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0154E7891EDF027700E8B972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0154E7941EDF027700E8B972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0154E76F1EDF027700E8B972 = {
+			isa = PBXGroup;
+			children = (
+				0154E77A1EDF027700E8B972 /* SLSMatrixDemo */,
+				0154E78F1EDF027700E8B972 /* SLSMatrixDemoTests */,
+				0154E79A1EDF027700E8B972 /* SLSMatrixDemoUITests */,
+				0154E7791EDF027700E8B972 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0154E7791EDF027700E8B972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0154E7781EDF027700E8B972 /* SLSMatrixDemo.app */,
+				0154E78C1EDF027700E8B972 /* SLSMatrixDemoTests.xctest */,
+				0154E7971EDF027700E8B972 /* SLSMatrixDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0154E77A1EDF027700E8B972 /* SLSMatrixDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0154E7AA1EDF02E400E8B972 /* SLSMatrix */,
+				0154E77B1EDF027700E8B972 /* AppDelegate.swift */,
+				0154E77D1EDF027700E8B972 /* ViewController.swift */,
+				0154E77F1EDF027700E8B972 /* Main.storyboard */,
+				0154E7821EDF027700E8B972 /* Assets.xcassets */,
+				0154E7841EDF027700E8B972 /* LaunchScreen.storyboard */,
+				0154E7871EDF027700E8B972 /* Info.plist */,
+			);
+			path = SLSMatrixDemo;
+			sourceTree = "<group>";
+		};
+		0154E78F1EDF027700E8B972 /* SLSMatrixDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0154E7901EDF027700E8B972 /* SLSMatrixDemoTests.swift */,
+				0154E7921EDF027700E8B972 /* Info.plist */,
+			);
+			path = SLSMatrixDemoTests;
+			sourceTree = "<group>";
+		};
+		0154E79A1EDF027700E8B972 /* SLSMatrixDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0154E79B1EDF027700E8B972 /* SLSMatrixDemoUITests.swift */,
+				0154E79D1EDF027700E8B972 /* Info.plist */,
+			);
+			path = SLSMatrixDemoUITests;
+			sourceTree = "<group>";
+		};
+		0154E7AA1EDF02E400E8B972 /* SLSMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				0154E7AB1EDF02E400E8B972 /* SLSMatrix.swift */,
+			);
+			name = SLSMatrix;
+			path = ../../SLSMatrix;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0154E7771EDF027700E8B972 /* SLSMatrixDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0154E7A01EDF027700E8B972 /* Build configuration list for PBXNativeTarget "SLSMatrixDemo" */;
+			buildPhases = (
+				0154E7741EDF027700E8B972 /* Sources */,
+				0154E7751EDF027700E8B972 /* Frameworks */,
+				0154E7761EDF027700E8B972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLSMatrixDemo;
+			productName = SLSMatrixDemo;
+			productReference = 0154E7781EDF027700E8B972 /* SLSMatrixDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0154E78B1EDF027700E8B972 /* SLSMatrixDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0154E7A31EDF027700E8B972 /* Build configuration list for PBXNativeTarget "SLSMatrixDemoTests" */;
+			buildPhases = (
+				0154E7881EDF027700E8B972 /* Sources */,
+				0154E7891EDF027700E8B972 /* Frameworks */,
+				0154E78A1EDF027700E8B972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0154E78E1EDF027700E8B972 /* PBXTargetDependency */,
+			);
+			name = SLSMatrixDemoTests;
+			productName = SLSMatrixDemoTests;
+			productReference = 0154E78C1EDF027700E8B972 /* SLSMatrixDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0154E7961EDF027700E8B972 /* SLSMatrixDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0154E7A61EDF027700E8B972 /* Build configuration list for PBXNativeTarget "SLSMatrixDemoUITests" */;
+			buildPhases = (
+				0154E7931EDF027700E8B972 /* Sources */,
+				0154E7941EDF027700E8B972 /* Frameworks */,
+				0154E7951EDF027700E8B972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0154E7991EDF027700E8B972 /* PBXTargetDependency */,
+			);
+			name = SLSMatrixDemoUITests;
+			productName = SLSMatrixDemoUITests;
+			productReference = 0154E7971EDF027700E8B972 /* SLSMatrixDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0154E7701EDF027700E8B972 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = slovelys;
+				TargetAttributes = {
+					0154E7771EDF027700E8B972 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					0154E78B1EDF027700E8B972 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0154E7771EDF027700E8B972;
+					};
+					0154E7961EDF027700E8B972 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0154E7771EDF027700E8B972;
+					};
+				};
+			};
+			buildConfigurationList = 0154E7731EDF027700E8B972 /* Build configuration list for PBXProject "SLSMatrixDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0154E76F1EDF027700E8B972;
+			productRefGroup = 0154E7791EDF027700E8B972 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0154E7771EDF027700E8B972 /* SLSMatrixDemo */,
+				0154E78B1EDF027700E8B972 /* SLSMatrixDemoTests */,
+				0154E7961EDF027700E8B972 /* SLSMatrixDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0154E7761EDF027700E8B972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0154E7861EDF027700E8B972 /* LaunchScreen.storyboard in Resources */,
+				0154E7831EDF027700E8B972 /* Assets.xcassets in Resources */,
+				0154E7811EDF027700E8B972 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0154E78A1EDF027700E8B972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0154E7951EDF027700E8B972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0154E7741EDF027700E8B972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0154E77E1EDF027700E8B972 /* ViewController.swift in Sources */,
+				0154E7AC1EDF02E400E8B972 /* SLSMatrix.swift in Sources */,
+				0154E77C1EDF027700E8B972 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0154E7881EDF027700E8B972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0154E7911EDF027700E8B972 /* SLSMatrixDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0154E7931EDF027700E8B972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0154E79C1EDF027700E8B972 /* SLSMatrixDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0154E78E1EDF027700E8B972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0154E7771EDF027700E8B972 /* SLSMatrixDemo */;
+			targetProxy = 0154E78D1EDF027700E8B972 /* PBXContainerItemProxy */;
+		};
+		0154E7991EDF027700E8B972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0154E7771EDF027700E8B972 /* SLSMatrixDemo */;
+			targetProxy = 0154E7981EDF027700E8B972 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0154E77F1EDF027700E8B972 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0154E7801EDF027700E8B972 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0154E7841EDF027700E8B972 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0154E7851EDF027700E8B972 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0154E79E1EDF027700E8B972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0154E79F1EDF027700E8B972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0154E7A11EDF027700E8B972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SLSMatrixDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slovelys.SLSMatrixDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0154E7A21EDF027700E8B972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SLSMatrixDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slovelys.SLSMatrixDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0154E7A41EDF027700E8B972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SLSMatrixDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slovelys.SLSMatrixDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLSMatrixDemo.app/SLSMatrixDemo";
+			};
+			name = Debug;
+		};
+		0154E7A51EDF027700E8B972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SLSMatrixDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slovelys.SLSMatrixDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLSMatrixDemo.app/SLSMatrixDemo";
+			};
+			name = Release;
+		};
+		0154E7A71EDF027700E8B972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SLSMatrixDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slovelys.SLSMatrixDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SLSMatrixDemo;
+			};
+			name = Debug;
+		};
+		0154E7A81EDF027700E8B972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SLSMatrixDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slovelys.SLSMatrixDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SLSMatrixDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0154E7731EDF027700E8B972 /* Build configuration list for PBXProject "SLSMatrixDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0154E79E1EDF027700E8B972 /* Debug */,
+				0154E79F1EDF027700E8B972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0154E7A01EDF027700E8B972 /* Build configuration list for PBXNativeTarget "SLSMatrixDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0154E7A11EDF027700E8B972 /* Debug */,
+				0154E7A21EDF027700E8B972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0154E7A31EDF027700E8B972 /* Build configuration list for PBXNativeTarget "SLSMatrixDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0154E7A41EDF027700E8B972 /* Debug */,
+				0154E7A51EDF027700E8B972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0154E7A61EDF027700E8B972 /* Build configuration list for PBXNativeTarget "SLSMatrixDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0154E7A71EDF027700E8B972 /* Debug */,
+				0154E7A81EDF027700E8B972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0154E7701EDF027700E8B972 /* Project object */;
+}
